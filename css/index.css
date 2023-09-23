@@ -2575,10 +2575,10 @@ body
 }
 #wb_Text8
 {
-   display: inline-block;
+   display: block;
    margin: 0 0 0 20px;
-   width: 529px;
-   height: 30px;
+   box-sizing: border-box;
+   width: calc(100% - 20px);
 }
 #wb_Section4
 {
@@ -4647,10 +4647,8 @@ body
 }
 #wb_Text8
 {
-   width: 270px;
-   height: 55px;
    visibility: visible;
-   display: inline-block;
+   display: block;
 }
 #wb_Text8
 {
@@ -4658,7 +4656,7 @@ body
    font-weight: 400;
    font-size: 15px;
    margin: 0;
-   padding: 10px 0 10px 0;
+   padding: 0 5px 0 5px;
    text-align: center;
    line-height: 26px;
 }
